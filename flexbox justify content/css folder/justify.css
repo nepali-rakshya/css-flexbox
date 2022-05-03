@@ -1,0 +1,46 @@
+/* FLEXBOX
+
+It allows usage of different properties like:
+
+=========================================
+============ justify-content ============
+=========================================
+
+
+------- justifying content allows align the content horizontally.
+    1. space between (it adds space IN BETWEEN the items in equal amount
+    and is also responsive)
+    
+    2. space around (it adds space IN FRONT AND BACK of the item equally
+    in a horizontal manner)
+
+    3. space evenly (it distributes the space evenly ON ALL THE SIDES)
+
+    4. flex-start (default justify content)
+
+    5. flex-end (similar to row-reverse but the value isn't reversed 
+    alike in row-reverse)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #cacaca;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  background: #ff0037;
+  color: #fff;
+  font-size: 37px;
+  padding: 20px;
+  margin: 10px;
+}
