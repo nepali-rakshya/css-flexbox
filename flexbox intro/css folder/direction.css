@@ -1,0 +1,30 @@
+/* FLEXBOX
+
+direction of the flex ===== row <------ 1,2,3
+                      ===== column | up 
+                      ===== row-reverse -----> 3,2,1
+                      ===== column-reverse | down
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #cacaca;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  background: #ff0037;
+  color: #fff;
+  font-size: 37px;
+  padding: 20px;
+  margin: 10px;
+}
