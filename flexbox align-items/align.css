@@ -1,0 +1,50 @@
+/*
+
+=========================================
+============== align items ==============
+=========================================
+
+--------- align items helps to align items vertically.
+    1. center (centers the items vertically)
+
+    2. flex-start (sticks to the top vertically)
+
+    3. flex-end (sticks to the bottom vertically)
+
+    4. stretch (matches the height of the tallest flex item)
+
+    5. baseline (matches the base of all the text)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #cacaca;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.item {
+  background: #ff0037;
+  color: #fff;
+  font-size: 37px;
+  padding: 20px;
+  margin: 10px;
+}
+/* 
+.items-3 {
+  height: 150px;
+}
+*/
+
+.items-4 {
+  font-size: 70px;
+}
