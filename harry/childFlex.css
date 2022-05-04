@@ -1,0 +1,16 @@
+.fcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid grey;
+  height: 50vh;
+  flex-wrap: wrap;
+}
+
+.fitem {
+  width: 6rem;
+  height: 6rem;
+  margin: 0.5rem;
+  background: red;
+}
