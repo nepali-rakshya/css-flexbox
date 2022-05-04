@@ -1,3 +1,23 @@
+/*
+
+**************for parent container *****************
+display: flex;
+flex-direction: row/column/row-reverse/column-reverse
+justify-content: center/flex-start/flex-end/space-around/space-evenly
+                 space-between
+align-items: center/flex-start/flex-end/baseline
+flex-wrap: wrap/wrap-reverse
+flex-flow: direction wrap
+
+
+**************for child  *****************
+order : 2,3,4 (more the value more it is pushed back)
+flex-grow: 2 and above
+flex-shrink: 2 and above
+align-self: center and all (for single element)
+
+*/
+
 .fcontainer {
   display: flex;
   flex-direction: row;
@@ -13,4 +33,24 @@
   height: 6rem;
   margin: 0.5rem;
   background: red;
+}
+
+.item1 {
+  order: 1;
+  flex-grow: 3;
+  align-self: baseline;
+}
+
+.item4 {
+  order: 4;
+  flex-grow: 2;
+}
+
+.item2 {
+  order: 3;
+  flex-shrink: 3;
+}
+
+.item3 {
+  order: 2;
 }
