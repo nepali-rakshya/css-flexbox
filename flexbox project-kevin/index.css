@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container design */
+
+.main-container {
+  background: #23424a;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  padding: 6rem 0;
+}
+
+.sub-heading > p {
+  font-size: 1rem;
+}
+
+.sub-heading {
+  width: 80%;
+  max-width: 700px;
+}
+
+.sub-heading > p {
+  padding-top: 1.3rem;
+}
+
+a {
+  display: inline-block;
+  padding: 0.8rem 2.4rem;
+  margin-top: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #38cfd9;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+a:link {
+  color: #23424a;
+}
+
+a:visited {
+  color: #23424a;
+}
+
+/* Content section design */
+
+.content-section {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.column + .column {
+  margin-left: 2rem;
+}
+
+.display1 {
+  display: flex;
+  padding: 6rem 0;
+}
+
+.color {
+  color: #87629a;
+}
+
+.display2 {
+  display: flex;
+  padding: 4.5rem 0;
+  color: white;
+}
+
+.wrap-section {
+  background: #136c72;
+}
+
+/* Common design for both the sections */
+
+.main-heading {
+  width: 88%;
+  margin: 0px auto;
+}
