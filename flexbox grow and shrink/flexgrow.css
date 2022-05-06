@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 60vw;
+  padding: 0.5rem 1rem;
+  border: 5px solid goldenrod;
+  justify-content: space-between;
+}
+
+.item {
+  padding: 2rem;
+  border: 3px solid darkcyan;
+}
+
+.items1 {
+  background: lightcoral;
+  flex: 2 0 0;
+}
+.items2 {
+  background: yellowgreen;
+}
+.items3 {
+  background: peru;
+}
+.items4 {
+  background: crimson;
+}
+.items5 {
+  background: blueviolet;
+}
