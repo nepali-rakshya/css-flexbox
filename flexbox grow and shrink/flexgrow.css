@@ -12,29 +12,37 @@
   border: 5px solid goldenrod;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .item {
   padding: 2rem;
   border: 3px solid darkcyan;
-  flex-basis: 50px;
-  flex: 1;
+  flex: 1 1 500px;
+  /**it means that the width of the item must start from 500px 
+  ** it can grow to fill the available space and can also shrink
+  ** to adjust inside of the container.*/
 }
 
 .items1 {
   background: lightcoral;
-  flex-basis: 50px;
 }
 .items2 {
   background: yellowgreen;
+  flex: 0 1 200px; /* *Start decoding the syntax from basis which 
+  * goes as the item starts at 200px wide which can grow to fill the 
+  * available space but cannot shrink below 200px*/
 }
 
-.items3 {
+/* .items3 {
   background: peru;
+  flex-grow: 1;
 }
 .items4 {
   background: crimson;
+  flex-grow: 1;
 }
 .items5 {
   background: blueviolet;
-}
+  flex-grow: 1;
+} */

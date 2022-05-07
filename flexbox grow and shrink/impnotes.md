@@ -13,4 +13,11 @@
 
 !If you want to make the flex items equal in width, it’s possible by using flex-basis. I will explain that in the coming sections.
 
+
+
+/*
+* BEST ARTICLE EVERRRRRRRRRRRRRR ON FLEX ITEMS PROPERTIES!!!!!
+
+? https://slideplayer.com/slide/16769061/
+*/
  -->
