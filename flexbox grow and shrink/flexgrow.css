@@ -17,11 +17,13 @@
 .item {
   padding: 2rem;
   border: 3px solid darkcyan;
-  flex: 1;
+  flex-basis: 50px;
+  flex: 1 20px;
 }
 
 .items1 {
   background: lightcoral;
+  flex-basis: 50px;
 }
 .items2 {
   background: yellowgreen;
